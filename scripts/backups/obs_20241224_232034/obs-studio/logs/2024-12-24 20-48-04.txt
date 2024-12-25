@@ -1,0 +1,223 @@
+20:48:04.821: Using EGL/X11
+20:48:04.821: CPU Name: Intel(R) Xeon(R) W-2125 CPU @ 4.00GHz
+20:48:04.821: CPU Speed: 4289.247MHz
+20:48:04.822: Physical Cores: 4, Logical Cores: 8
+20:48:04.822: Physical Memory: 63976MB Total, 48796MB Free
+20:48:04.822: Kernel Version: Linux 6.8.0-47-generic
+20:48:04.822: Distribution: "Ubuntu" "24.04"
+20:48:04.822: Desktop Environment: ubuntu:GNOME (ubuntu)
+20:48:04.822: Session Type: x11
+20:48:04.822: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+20:48:04.822: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+20:48:04.822: Portable mode: false
+20:48:04.869: OBS 31.0.0 (linux)
+20:48:04.869: ---------------------------------
+20:48:04.870: ---------------------------------
+20:48:04.870: audio settings reset:
+20:48:04.870: 	samples per sec: 48000
+20:48:04.870: 	speakers:        2
+20:48:04.870: 	max buffering:   960 milliseconds
+20:48:04.870: 	buffering type:  dynamically increasing
+20:48:04.871: ---------------------------------
+20:48:04.871: Initializing OpenGL...
+20:48:04.983: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2080/PCIe/SSE2
+20:48:04.983: OpenGL loaded successfully, version 3.3.0 NVIDIA 550.107.02, shading language 3.30 NVIDIA via Cg compiler
+20:48:05.037: ---------------------------------
+20:48:05.037: video settings reset:
+20:48:05.037: 	base resolution:   1920x1080
+20:48:05.037: 	output resolution: 1280x720
+20:48:05.037: 	downscale filter:  Bicubic
+20:48:05.037: 	fps:               30/1
+20:48:05.037: 	format:            NV12
+20:48:05.037: 	YUV mode:          Rec. 709/Partial
+20:48:05.038: NV12 texture support enabled
+20:48:05.038: P010 texture support not available
+20:48:05.038: Audio monitoring device:
+20:48:05.038: 	name: Default
+20:48:05.038: 	id: default
+20:48:05.042: ---------------------------------
+20:48:05.056: No AJA devices found, skipping loading AJA UI plugin
+20:48:05.056: Failed to initialize module 'aja-output-ui.so'
+20:48:05.067: No AJA devices found, skipping loading AJA plugin
+20:48:05.067: Failed to initialize module 'aja.so'
+20:48:05.077: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:48:05.087: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:48:05.095: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:48:05.095: Failed to initialize module 'decklink.so'
+20:48:05.435: [pipewire] Available capture sources:
+20:48:05.435: [pipewire]     - Monitor source
+20:48:05.435: [pipewire]     - Window source
+20:48:05.476: [obs-browser]: Version 2.24.4
+20:48:05.476: [obs-browser]: CEF Version 127.0.6533.100 (runtime), 127.3.4+ge9e2e14+chromium-127.0.6533.100 (compiled)
+20:48:05.550: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+20:48:05.550: FFmpeg VAAPI H264 encoding not supported
+20:48:05.550: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+20:48:05.550: FFmpeg VAAPI AV1 encoding not supported
+20:48:05.550: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+20:48:05.550: FFmpeg VAAPI HEVC encoding not supported
+20:48:05.963: [obs-nvenc] NVENC version: 12.1 (compiled) / 12.2 (driver), CUDA driver version: 12.40, AV1 supported: false
+20:48:06.028: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.4 | RPC Version: 1)
+20:48:06.028: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+20:48:06.028: [obs-websocket] [obs_module_load] Linked ASIO Version: 102801
+20:48:06.028: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+20:48:06.036: [obs-websocket] [obs_module_load] Module loaded.
+20:48:06.086: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+20:48:06.086: 
+20:48:06.086: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+20:48:06.086: ---------------------------------
+20:48:06.086:   Loaded Modules:
+20:48:06.086:     vlc-video.so
+20:48:06.086:     text-freetype2.so
+20:48:06.086:     rtmp-services.so
+20:48:06.086:     obs-x264.so
+20:48:06.086:     obs-websocket.so
+20:48:06.086:     obs-vst.so
+20:48:06.086:     obs-transitions.so
+20:48:06.086:     obs-qsv11.so
+20:48:06.086:     obs-outputs.so
+20:48:06.086:     obs-nvenc.so
+20:48:06.086:     obs-libfdk.so
+20:48:06.086:     obs-filters.so
+20:48:06.086:     obs-ffmpeg.so
+20:48:06.086:     obs-browser.so
+20:48:06.086:     linux-v4l2.so
+20:48:06.086:     linux-pulseaudio.so
+20:48:06.086:     linux-pipewire.so
+20:48:06.086:     linux-jack.so
+20:48:06.086:     linux-capture.so
+20:48:06.086:     linux-alsa.so
+20:48:06.086:     image-source.so
+20:48:06.086:     frontend-tools.so
+20:48:06.086:     decklink-output-ui.so
+20:48:06.086:     decklink-captions.so
+20:48:06.086: ---------------------------------
+20:48:06.086: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+20:48:06.086: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+20:48:06.086: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+20:48:06.087: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 10.0.0.10
+20:48:06.087: ---------------------------------
+20:48:06.087: Available Encoders:
+20:48:06.087:   Video Encoders:
+20:48:06.087: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:48:06.087: 	- ffmpeg_aom_av1 (AOM AV1)
+20:48:06.087: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+20:48:06.087: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+20:48:06.087: 	- obs_x264 (x264)
+20:48:06.087:   Audio Encoders:
+20:48:06.087: 	- ffmpeg_aac (FFmpeg AAC)
+20:48:06.087: 	- ffmpeg_opus (FFmpeg Opus)
+20:48:06.087: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:48:06.087: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:48:06.087: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:48:06.087: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:48:06.087: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:48:06.087: 	- libfdk_aac (libfdk AAC)
+20:48:06.087: ==== Startup complete ===============================================
+20:48:06.150: All scene data cleared
+20:48:06.150: ------------------------------------------------
+20:48:06.157: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+20:48:06.158: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:48:06.158: pulse-input: Started recording from 'alsa_output.usb-MACROSILICON_USB2_Video_20210621-02.16.analog-stereo.monitor' (default)
+20:48:06.158: [Loaded global audio device]: 'Desktop Audio'
+20:48:06.158: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+20:48:06.159: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:48:06.159: pulse-input: Started recording from 'alsa_input.usb-MACROSILICON_USB2_Video_20210621-02.16.analog-stereo' (default)
+20:48:06.159: [Loaded global audio device]: 'Mic/Aux'
+20:48:06.563: v4l2-input: Start capture from /dev/video0
+20:48:06.715: v4l2-input: Input: 0
+20:48:06.718: v4l2-input: Resolution: 1920x1080
+20:48:06.718: v4l2-input: Pixelformat: MJPG
+20:48:06.718: v4l2-input: Linesize: 0 Bytes
+20:48:06.718: v4l2-input: Framerate: 60.00 fps
+20:48:06.720: v4l2-input: /dev/video0: select timeout set to 83333 (5x frame periods)
+20:48:06.720: v4l2-input: Start capture from /dev/video4
+20:48:06.726: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+20:48:06.726: 
+20:48:06.803: v4l2-input: /dev/video0: select timed out
+20:48:06.803: v4l2-input: /dev/video0: failed to log status
+20:48:06.887: v4l2-input: /dev/video0: select timed out
+20:48:06.887: v4l2-input: /dev/video0: failed to log status
+20:48:07.088: v4l2-input: Input: 0
+20:48:07.090: v4l2-input: Resolution: 1920x1080
+20:48:07.090: v4l2-input: Pixelformat: MJPG
+20:48:07.090: v4l2-input: Linesize: 0 Bytes
+20:48:07.091: v4l2-input: Framerate: 60.00 fps
+20:48:07.093: v4l2-input: /dev/video4: select timeout set to 83333 (5x frame periods)
+20:48:07.099: Switched to scene 'Training'
+20:48:07.099: ------------------------------------------------
+20:48:07.099: Loaded scenes:
+20:48:07.099: - scene 'Live':
+20:48:07.099:     - source: 'Master' (scene)
+20:48:07.099: - scene 'Master':
+20:48:07.099:     - source: 'Training' (scene)
+20:48:07.099:     - source: 'Quadrants' (scene)
+20:48:07.099:     - source: 'Camera' (scene)
+20:48:07.099:     - source: 'Main' (scene)
+20:48:07.099: - scene 'Main':
+20:48:07.099:     - source: 'cloudy_eng_main' (image_source)
+20:48:07.099:     - source: 'cloudy_eng_bug' (image_source)
+20:48:07.099:     - source: 'ogx_main' (image_source)
+20:48:07.099:     - source: 'ogx_bug' (image_source)
+20:48:07.099: - scene 'Camera':
+20:48:07.099:     - source: 'Tiny - Ark 55"' (v4l2_input)
+20:48:07.099:     - source: 'Tiny - Office' (v4l2_input)
+20:48:07.099: - scene 'Virtual Camera':
+20:48:07.099:     - source: 'Camera' (scene)
+20:48:07.099:     - source: 'Main' (scene)
+20:48:07.099: - scene 'Training':
+20:48:07.099:     - source: 'Dell Top Right' (pipewire-camera-source)
+20:48:07.099:     - source: 'Dell Bottom Top' (pipewire-camera-source)
+20:48:07.099: - scene 'Quadrants':
+20:48:07.099: - scene 'Quadrant 1':
+20:48:07.099: - scene 'Quadrant 2':
+20:48:07.099: - scene 'Quadrant 3':
+20:48:07.099: - scene 'Quadrant 4':
+20:48:07.099: - scene 'Quadrant 5':
+20:48:07.099: ------------------------------------------------
+20:48:07.111: v4l2-input: decoder: failed to send frame to codec
+20:48:07.111: v4l2-input: failed to unpack jpeg or h264
+20:48:07.111: v4l2-input: /dev/video4: Stopped capture after 0 frames
+20:48:07.192: [camera-portal] Successfully accessed cameras
+20:48:07.205: [pipewire] Server version: 1.0.5
+20:48:07.205: [pipewire] Library version: 1.0.5
+20:48:07.205: [pipewire] Header version: 1.0.5
+20:48:07.206: [pipewire] Created registry 0x5e027478c840
+20:48:07.206: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_5_1.0
+20:48:07.206: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_5_1.0'
+20:48:07.206: [pipewire] Created stream 0x7ab48c002790
+20:48:07.206: [pipewire] Stream 0x7ab48c002790 state: "connecting" (error: none)
+20:48:07.206: [pipewire] Playing stream 0x7ab48c002790
+20:48:07.206: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_1.4_1.0
+20:48:07.206: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_1.2.3.3.3_1.0
+20:48:07.206: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_10.1_1.0
+20:48:07.206: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_10.1_1.0'
+20:48:07.206: [pipewire] Created stream 0x7ab48c008300
+20:48:07.206: [pipewire] Stream 0x7ab48c008300 state: "connecting" (error: none)
+20:48:07.206: [pipewire] Playing stream 0x7ab48c008300
+20:48:07.207: [pipewire] Stream 0x7ab48c002790 state: "paused" (error: none)
+20:48:07.207: [pipewire] Stream 0x7ab48c008300 state: "paused" (error: none)
+20:48:07.375: [pipewire] Negotiated format:
+20:48:07.375: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+20:48:07.375: [pipewire]     Size: 1920x1080
+20:48:07.375: [pipewire]     Framerate: 5/1
+20:48:07.375: [pipewire] Negotiated format:
+20:48:07.375: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+20:48:07.375: [pipewire]     Size: 1920x1080
+20:48:07.375: [pipewire]     Framerate: 10/1
+20:48:07.380: [pipewire] Stream 0x7ab48c002790 state: "streaming" (error: none)
+20:48:07.381: [pipewire] Stream 0x7ab48c008300 state: "streaming" (error: none)
+20:48:11.753:   OpenType support missing for "Open Sans", script 11
+20:48:11.759:   OpenType support missing for "Open Sans", script 12
+20:48:11.764:   OpenType support missing for "Open Sans", script 20
+20:50:36.409: signal_handler_connect: signal 'file_changed' not found
+20:50:36.410: Settings changed (outputs)
+20:50:36.410: ------------------------------------------------
+20:50:39.554: [camera-portal] Selected resolution for 'v4l2_input.pci-0000_00_14.0-usb-0_5_1.0'
+20:50:39.554: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5_1.0'
+20:50:39.554: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_5_1.0'
+20:50:39.554: [camera-portal] Updating pixel formats
+20:50:39.554: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_5_1.0'
+21:02:11.239: [pipewire] Stream 0x7ab48c008300 state: "paused" (error: none)
+21:02:25.291: Source 'Dell Top Right' renamed to 'Dell Top R'
+21:02:38.572: Source 'Dell Bottom Top' renamed to 'Dell Top Right'
+21:02:50.329: Source 'Dell Top R' renamed to 'Dell Bottom Right'

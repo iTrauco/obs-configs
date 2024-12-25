@@ -1,0 +1,151 @@
+### System Information ###
+Linux mad-sicnetist-precision-tower 6.8.0-51-generic #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+### CPU Details ###
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        46 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               8
+On-line CPU(s) list:                  0-7
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Xeon(R) W-2125 CPU @ 4.00GHz
+CPU family:                           6
+Model:                                85
+Thread(s) per core:                   2
+Core(s) per socket:                   4
+Socket(s):                            1
+Stepping:                             4
+CPU(s) scaling MHz:                   98%
+CPU max MHz:                          4500.0000
+CPU min MHz:                          1200.0000
+BogoMIPS:                             7999.96
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 pti intel_ppin ssbd mba ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req vnmi md_clear flush_l1d arch_capabilities
+Virtualization:                       VT-x
+L1d cache:                            128 KiB (4 instances)
+L1i cache:                            128 KiB (4 instances)
+L2 cache:                             4 MiB (4 instances)
+L3 cache:                             8.3 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-7
+Vulnerability Gather data sampling:   Mitigation; Microcode
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                   Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:                    Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:               Mitigation; PTI
+Vulnerability Mmio stale data:        Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; IBRS
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; IBRS; IBPB conditional; STIBP conditional; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Mitigation; Clear CPU buffers; SMT vulnerable
+8
+
+### GPU Information ###
+0000:65:00.0 VGA compatible controller: NVIDIA Corporation TU104 [GeForce RTX 2080] (rev a1)
+
+### Memory and Storage ###
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi       4.1Gi        57Gi       163Mi       2.2Gi        58Gi
+Swap:          8.0Gi          0B       8.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           6.3G  3.0M  6.3G   1% /run
+/dev/sda5       1.1T   27G  969G   3% /
+tmpfs            32G   79M   32G   1% /dev/shm
+tmpfs           5.0M   36K  5.0M   1% /run/lock
+efivarfs        512K  105K  403K  21% /sys/firmware/efi/efivars
+/dev/sda1       492M   44M  449M   9% /boot/efi
+tmpfs           6.3G  120K  6.3G   1% /run/user/1000
+/dev/sdc1       1.9T  9.3G  1.9T   1% /media/trauco/Extreme SSD
+/dev/sdd1       140K   96K   44K  69% /media/trauco/LAUNCHPAD X
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0     4K  1 loop /snap/bare/5
+loop1    7:1    0  74.2M  1 loop /snap/core22/1621
+loop2    7:2    0  73.9M  1 loop /snap/core22/1722
+loop3    7:3    0 269.8M  1 loop /snap/firefox/4793
+loop4    7:4    0 272.1M  1 loop /snap/firefox/5134
+loop5    7:5    0  10.7M  1 loop /snap/firmware-updater/127
+loop6    7:6    0  11.1M  1 loop /snap/firmware-updater/147
+loop7    7:7    0 505.1M  1 loop /snap/gnome-42-2204/176
+loop8    7:8    0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop9    7:9    0 443.2M  1 loop /snap/kf5-5-111-qt-5-15-11-core22/7
+loop10   7:10   0 266.2M  1 loop /snap/kamoso/16
+loop11   7:11   0 575.6M  1 loop /snap/obs-studio/1302
+loop12   7:12   0  10.5M  1 loop /snap/snap-store/1173
+loop13   7:13   0  10.7M  1 loop /snap/snap-store/1218
+loop14   7:14   0  38.8M  1 loop /snap/snapd/21759
+loop15   7:15   0  44.3M  1 loop /snap/snapd/23258
+loop16   7:16   0   500K  1 loop /snap/snapd-desktop-integration/178
+loop17   7:17   0   568K  1 loop /snap/snapd-desktop-integration/253
+sda      8:0    0   1.9T  0 disk 
+├─sda1   8:1    0   496M  0 part /boot/efi
+├─sda2   8:2    0   128M  0 part 
+├─sda3   8:3    0 839.4G  0 part 
+├─sda4   8:4    0   984M  0 part 
+└─sda5   8:5    0     1T  0 part /
+sdb      8:16   1     0B  0 disk 
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /media/trauco/Extreme SSD
+sdd      8:48   1   192K  1 disk 
+└─sdd1   8:49   1 160.5K  1 part /media/trauco/LAUNCHPAD X
+
+### Display Server and Monitors ###
+Display Server: x11
+Monitors: 1
+ 0: +*HDMI-0 3840/1210x2160/680+0+0  HDMI-0
+
+### NVIDIA Kernel Modules ###
+nvidia_uvm           4952064  0
+nvidia_drm            122880  13
+nvidia_modeset       1392640  22 nvidia_drm
+nvidia              65900544  269 nvidia_uvm,nvidia_modeset
+video                  73728  2 dell_wmi,nvidia_modeset
+i2c_nvidia_gpu         12288  0
+i2c_ccgx_ucsi          12288  1 i2c_nvidia_gpu
+
+### OBS Studio and Hardware Acceleration ###
+
+### GNOME Version and Extensions ###
+GNOME Shell 46.0
+ding@rastersoft.com
+tiling-assistant@ubuntu.com
+ubuntu-appindicators@ubuntu.com
+ubuntu-dock@ubuntu.com
+
+### System Logs ###
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:52 mad-sicnetist-precision-tower kernel: [drm:nv_drm_master_set [nvidia_drm]] *ERROR* [nvidia-drm] [GPU ID 0x00006500] Failed to grab modeset ownership
+Dec 24 23:01:59 mad-sicnetist-precision-tower systemd[2042]: Failed to start update-notifier-crash.service - Notification regarding a crash report.
+░░ Subject: A start job for unit UNIT has failed
+░░ Defined-By: systemd
+░░ Support: http://www.ubuntu.com/support
+░░ 
+░░ A start job for unit UNIT has finished with a failure.
+░░ 
+░░ The job identifier is 786 and the job result is failed.

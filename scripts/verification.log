@@ -1,0 +1,25 @@
+[2024-12-24 23:19:14] Starting verification checks...
+[2024-12-24 23:19:14] Checking NVIDIA components...
+[2024-12-24 23:19:14] ✓ nvidia-settings is installed
+[2024-12-24 23:19:14]   Version: 
+[2024-12-24 23:19:14] ✓ nvidia-smi is available
+[2024-12-24 23:19:14]   Driver version: 560.35.03
+[2024-12-24 23:19:14] Checking OBS installation...
+[2024-12-24 23:19:14] ✓ OBS is installed
+[2024-12-24 23:19:14]   Version: OBS Studio - 31.0.0
+[2024-12-24 23:19:14] ✓ OBS config directory exists
+[2024-12-24 23:19:14] Checking NVENC support...
+[2024-12-24 23:19:14] ✓ FFmpeg is installed
+[2024-12-24 23:19:14] ✓ NVENC encoders available:
+[2024-12-24 23:19:14]   V....D av1_nvenc            NVIDIA NVENC av1 encoder (codec av1)
+[2024-12-24 23:19:14]   V....D h264_nvenc           NVIDIA NVENC H.264 encoder (codec h264)
+[2024-12-24 23:19:14]   V....D hevc_nvenc           NVIDIA NVENC hevc encoder (codec hevc)
+[2024-12-24 23:19:14] Checking system compositor...
+[2024-12-24 23:19:14] Session type: x11
+[2024-12-24 23:19:14] Available mutter schemas:
+[2024-12-24 23:19:14]   org.gnome.mutter
+[2024-12-24 23:19:14]   org.gnome.mutter.keybindings
+[2024-12-24 23:19:14]   org.gnome.mutter.wayland
+[2024-12-24 23:19:14]   org.gnome.mutter.wayland.keybindings
+[2024-12-24 23:19:14]   org.gnome.mutter.x11
+[2024-12-24 23:19:14] Verification complete. Check /home/trauco/obs-config-repo/scripts/verification.log for details.

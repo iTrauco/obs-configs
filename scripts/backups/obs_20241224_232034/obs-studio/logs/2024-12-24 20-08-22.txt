@@ -1,0 +1,327 @@
+20:08:22.986: Using EGL/X11
+20:08:22.986: CPU Name: Intel(R) Xeon(R) W-2125 CPU @ 4.00GHz
+20:08:22.986: CPU Speed: 4400.003MHz
+20:08:22.987: Physical Cores: 4, Logical Cores: 8
+20:08:22.987: Physical Memory: 63976MB Total, 49337MB Free
+20:08:22.987: Kernel Version: Linux 6.8.0-47-generic
+20:08:22.987: Distribution: "Ubuntu" "24.04"
+20:08:22.987: Desktop Environment: ubuntu:GNOME (ubuntu)
+20:08:22.987: Session Type: x11
+20:08:22.987: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+20:08:22.987: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+20:08:22.987: Portable mode: false
+20:08:23.034: OBS 31.0.0 (linux)
+20:08:23.034: ---------------------------------
+20:08:23.035: ---------------------------------
+20:08:23.035: audio settings reset:
+20:08:23.035: 	samples per sec: 48000
+20:08:23.035: 	speakers:        2
+20:08:23.035: 	max buffering:   960 milliseconds
+20:08:23.035: 	buffering type:  dynamically increasing
+20:08:23.037: ---------------------------------
+20:08:23.037: Initializing OpenGL...
+20:08:23.095: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2080/PCIe/SSE2
+20:08:23.095: OpenGL loaded successfully, version 3.3.0 NVIDIA 550.107.02, shading language 3.30 NVIDIA via Cg compiler
+20:08:23.137: ---------------------------------
+20:08:23.137: video settings reset:
+20:08:23.137: 	base resolution:   1920x1080
+20:08:23.137: 	output resolution: 1280x720
+20:08:23.137: 	downscale filter:  Bicubic
+20:08:23.137: 	fps:               30/1
+20:08:23.137: 	format:            NV12
+20:08:23.137: 	YUV mode:          Rec. 709/Partial
+20:08:23.137: NV12 texture support enabled
+20:08:23.137: P010 texture support not available
+20:08:23.138: Audio monitoring device:
+20:08:23.138: 	name: Default
+20:08:23.138: 	id: default
+20:08:23.139: ---------------------------------
+20:08:23.156: No AJA devices found, skipping loading AJA UI plugin
+20:08:23.156: Failed to initialize module 'aja-output-ui.so'
+20:08:23.168: No AJA devices found, skipping loading AJA plugin
+20:08:23.168: Failed to initialize module 'aja.so'
+20:08:23.176: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:08:23.183: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:08:23.191: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:08:23.191: Failed to initialize module 'decklink.so'
+20:08:23.463: [pipewire] Available capture sources:
+20:08:23.463: [pipewire]     - Monitor source
+20:08:23.463: [pipewire]     - Window source
+20:08:23.497: [obs-browser]: Version 2.24.4
+20:08:23.497: [obs-browser]: CEF Version 127.0.6533.100 (runtime), 127.3.4+ge9e2e14+chromium-127.0.6533.100 (compiled)
+20:08:23.560: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+20:08:23.560: FFmpeg VAAPI H264 encoding not supported
+20:08:23.561: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+20:08:23.561: FFmpeg VAAPI AV1 encoding not supported
+20:08:23.561: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+20:08:23.561: FFmpeg VAAPI HEVC encoding not supported
+20:08:23.970: [obs-nvenc] NVENC version: 12.1 (compiled) / 12.2 (driver), CUDA driver version: 12.40, AV1 supported: false
+20:08:24.025: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.4 | RPC Version: 1)
+20:08:24.025: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+20:08:24.025: [obs-websocket] [obs_module_load] Linked ASIO Version: 102801
+20:08:24.025: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+20:08:24.032: [obs-websocket] [obs_module_load] Module loaded.
+20:08:24.075: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+20:08:24.075: 
+20:08:24.075: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+20:08:24.075: ---------------------------------
+20:08:24.075:   Loaded Modules:
+20:08:24.075:     vlc-video.so
+20:08:24.075:     text-freetype2.so
+20:08:24.075:     rtmp-services.so
+20:08:24.075:     obs-x264.so
+20:08:24.075:     obs-websocket.so
+20:08:24.075:     obs-vst.so
+20:08:24.075:     obs-transitions.so
+20:08:24.075:     obs-qsv11.so
+20:08:24.075:     obs-outputs.so
+20:08:24.075:     obs-nvenc.so
+20:08:24.075:     obs-libfdk.so
+20:08:24.075:     obs-filters.so
+20:08:24.075:     obs-ffmpeg.so
+20:08:24.076:     obs-browser.so
+20:08:24.076:     linux-v4l2.so
+20:08:24.076:     linux-pulseaudio.so
+20:08:24.076:     linux-pipewire.so
+20:08:24.076:     linux-jack.so
+20:08:24.076:     linux-capture.so
+20:08:24.076:     linux-alsa.so
+20:08:24.076:     image-source.so
+20:08:24.076:     frontend-tools.so
+20:08:24.076:     decklink-output-ui.so
+20:08:24.076:     decklink-captions.so
+20:08:24.076: ---------------------------------
+20:08:24.076: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+20:08:24.076: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+20:08:24.076: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+20:08:24.076: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 10.0.0.10
+20:08:24.076: ---------------------------------
+20:08:24.076: Available Encoders:
+20:08:24.076:   Video Encoders:
+20:08:24.076: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:08:24.076: 	- ffmpeg_aom_av1 (AOM AV1)
+20:08:24.076: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+20:08:24.076: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+20:08:24.076: 	- obs_x264 (x264)
+20:08:24.076:   Audio Encoders:
+20:08:24.076: 	- ffmpeg_aac (FFmpeg AAC)
+20:08:24.076: 	- ffmpeg_opus (FFmpeg Opus)
+20:08:24.076: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:08:24.076: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:08:24.076: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:08:24.076: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:08:24.076: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:08:24.076: 	- libfdk_aac (libfdk AAC)
+20:08:24.076: ==== Startup complete ===============================================
+20:08:24.123: All scene data cleared
+20:08:24.123: ------------------------------------------------
+20:08:24.132: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+20:08:24.132: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:08:24.132: pulse-input: Started recording from 'alsa_output.usb-MACROSILICON_USB2_Video_20210621-02.16.analog-stereo.monitor' (default)
+20:08:24.133: [Loaded global audio device]: 'Desktop Audio'
+20:08:24.133: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+20:08:24.133: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+20:08:24.133: pulse-input: Started recording from 'alsa_input.usb-MACROSILICON_USB2_Video_20210621-02.16.analog-stereo' (default)
+20:08:24.134: [Loaded global audio device]: 'Mic/Aux'
+20:08:24.137: v4l2-input: Start capture from /dev/video0
+20:08:24.289: v4l2-input: Input: 0
+20:08:24.293: v4l2-input: Resolution: 1920x1080
+20:08:24.293: v4l2-input: Pixelformat: MJPG
+20:08:24.293: v4l2-input: Linesize: 0 Bytes
+20:08:24.293: v4l2-input: Framerate: 60.00 fps
+20:08:24.294: v4l2-input: /dev/video0: select timeout set to 83333 (5x frame periods)
+20:08:24.296: Switched to scene 'Master'
+20:08:24.296: ------------------------------------------------
+20:08:24.296: Loaded scenes:
+20:08:24.296: - scene 'Live':
+20:08:24.296: - scene 'Master':
+20:08:24.296:     - source: 'Tiny' (v4l2_input)
+20:08:24.296: - scene 'Main':
+20:08:24.296: - scene 'Camera':
+20:08:24.296: - scene 'Virtual Camera':
+20:08:24.296: - scene 'Training':
+20:08:24.296: - scene 'Quadrants':
+20:08:24.296: - scene 'Quadrant 1':
+20:08:24.296: - scene 'Quadrant 2':
+20:08:24.296: - scene 'Quadrant 3':
+20:08:24.296: - scene 'Quadrant 4':
+20:08:24.296: - scene 'Quadrant 5':
+20:08:24.296: ------------------------------------------------
+20:08:24.378: v4l2-input: /dev/video0: select timed out
+20:08:24.378: v4l2-input: /dev/video0: failed to log status
+20:08:24.462: v4l2-input: /dev/video0: select timed out
+20:08:24.462: v4l2-input: /dev/video0: failed to log status
+20:08:24.699: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+20:08:24.699: 
+20:09:05.469: Source 'Tiny' renamed to 'Tiny - Ark 55"'
+20:09:21.159: v4l2-input: Start capture from 
+20:09:21.159: v4l2-input: Unable to open device
+20:09:21.159: v4l2-input: Initialization failed, errno: No such file or directory
+20:09:21.163: User added source 'Tiny - Office ' (v4l2_input) to scene 'Master'
+20:09:21.176: v4l2-input: /dev/video7 seems to not support video capture
+20:09:21.177: v4l2-input: /dev/video5 seems to not support video capture
+20:09:21.177: v4l2-input: /dev/video3 seems to not support video capture
+20:09:21.177: v4l2-input: /dev/video1 seems to not support video capture
+20:09:21.178: v4l2-input: Found device 'USB2 Video: USB2 Video' at /dev/video6
+20:09:21.546: v4l2-input: Found device 'OBSBOT Tiny 2: OBSBOT Tiny 2 St' at /dev/video4
+20:09:21.643: v4l2-input: Found device ' USB3.0HDvideo:  USB3.0HDvideo' at /dev/video2
+20:09:21.644: v4l2-input: Found device 'OBSBOT Tiny 2: OBSBOT Tiny 2 St' at /dev/video0
+20:09:21.644: v4l2-input: Found input 'Camera 1' (Index 0)
+20:09:21.645: v4l2-input: Pixelformat: Motion-JPEG (available)
+20:09:21.645: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+20:09:21.645: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+20:09:21.645: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+20:09:21.645: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+20:09:21.645: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+20:09:21.645: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+20:09:21.646: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+20:09:21.648: v4l2-input: Pixelformat: Motion-JPEG (available)
+20:09:21.648: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+20:09:21.648: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+20:09:21.648: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+20:09:21.648: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+20:09:21.648: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+20:09:21.648: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+20:09:21.649: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+20:09:21.651: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+20:09:21.671: v4l2-input: Start capture from /dev/video6
+20:09:21.672: v4l2-input: Input: 0
+20:09:21.714: v4l2-input: Resolution: 2560x1600
+20:09:21.714: v4l2-input: Pixelformat: MJPG
+20:09:21.714: v4l2-input: Linesize: 0 Bytes
+20:09:21.714: v4l2-input: Framerate: 30.00 fps
+20:09:21.718: v4l2-input: /dev/video6: select timeout set to 166666 (5x frame periods)
+20:09:25.008: v4l2-input: /dev/video6: Stopped capture after 93 frames
+20:09:25.013: v4l2-input: Start capture from /dev/video4
+20:09:25.314: v4l2-input: Found input 'Camera 1' (Index 0)
+20:09:25.314: v4l2-controls: setting default for Power Line Frequency to 3
+20:09:25.315: v4l2-controls: setting default for Auto Exposure to 0
+20:09:25.315: v4l2-input: Input: 0
+20:09:25.317: v4l2-input: Resolution: 1920x1080
+20:09:25.317: v4l2-input: Pixelformat: MJPG
+20:09:25.317: v4l2-input: Linesize: 0 Bytes
+20:09:25.317: v4l2-input: Framerate: 30.00 fps
+20:09:25.318: v4l2-input: Pixelformat: Motion-JPEG (available)
+20:09:25.318: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+20:09:25.318: v4l2-input: Pixelformat: H.264 (available)
+20:09:25.318: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+20:09:25.318: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+20:09:25.318: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+20:09:25.318: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+20:09:25.319: v4l2-input: /dev/video4: select timeout set to 166666 (5x frame periods)
+20:09:25.319: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+20:09:25.488: v4l2-input: /dev/video4: select timed out
+20:09:25.488: v4l2-input: /dev/video4: failed to log status
+20:09:25.655: v4l2-input: /dev/video4: select timed out
+20:09:25.655: v4l2-input: /dev/video4: failed to log status
+20:09:25.822: v4l2-input: /dev/video4: select timed out
+20:09:25.822: v4l2-input: /dev/video4: failed to log status
+20:09:25.989: v4l2-input: /dev/video4: select timed out
+20:09:25.989: v4l2-input: /dev/video4: failed to log status
+20:09:26.156: v4l2-input: /dev/video4: select timed out
+20:09:26.156: v4l2-input: /dev/video4: failed to log status
+20:09:26.323: v4l2-input: /dev/video4: select timed out
+20:09:26.323: v4l2-input: /dev/video4: failed to log status
+20:09:26.489: v4l2-input: /dev/video4: select timed out
+20:09:26.489: v4l2-input: /dev/video4: failed to log status
+20:09:26.656: v4l2-input: /dev/video4: select timed out
+20:09:26.656: v4l2-input: /dev/video4: failed to log status
+20:09:29.912: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+20:09:29.950: v4l2-input: /dev/video4: Stopped capture after 92 frames
+20:09:29.951: v4l2-input: Start capture from /dev/video4
+20:09:29.952: v4l2-input: Input: 0
+20:09:29.953: v4l2-input: Resolution: 1920x1080
+20:09:29.953: v4l2-input: Pixelformat: H264
+20:09:29.953: v4l2-input: Linesize: 3840 Bytes
+20:09:29.953: v4l2-input: Framerate: 30.00 fps
+20:09:29.955: v4l2-input: /dev/video4: select timeout set to 166666 (5x frame periods)
+20:09:29.973: v4l2-input: decoder: failed to send frame to codec
+20:09:29.973: v4l2-input: failed to unpack jpeg or h264
+20:09:29.973: v4l2-input: /dev/video4: Stopped capture after 0 frames
+20:09:38.839: v4l2-input: Start capture from /dev/video4
+20:09:38.839: v4l2-input: Input: 0
+20:09:38.842: v4l2-input: Resolution: 1920x1080
+20:09:38.842: v4l2-input: Pixelformat: H264
+20:09:38.842: v4l2-input: Linesize: 3840 Bytes
+20:09:38.842: v4l2-input: Framerate: 60.00 fps
+20:09:38.843: v4l2-input: /dev/video4: select timeout set to 83333 (5x frame periods)
+20:09:38.927: v4l2-input: /dev/video4: select timed out
+20:09:38.927: v4l2-input: /dev/video4: failed to log status
+20:09:39.011: v4l2-input: /dev/video4: select timed out
+20:09:39.011: v4l2-input: /dev/video4: failed to log status
+20:09:39.094: v4l2-input: /dev/video4: select timed out
+20:09:39.094: v4l2-input: /dev/video4: failed to log status
+20:09:39.178: v4l2-input: /dev/video4: select timed out
+20:09:39.178: v4l2-input: /dev/video4: failed to log status
+20:09:39.261: v4l2-input: /dev/video4: select timed out
+20:09:39.261: v4l2-input: /dev/video4: failed to log status
+20:09:39.345: v4l2-input: /dev/video4: select timed out
+20:09:39.345: v4l2-input: /dev/video4: failed to log status
+20:09:39.428: v4l2-input: /dev/video4: select timed out
+20:09:39.428: v4l2-input: /dev/video4: failed to log status
+20:09:39.512: v4l2-input: /dev/video4: select timed out
+20:09:39.512: v4l2-input: /dev/video4: failed to log status
+20:09:39.595: v4l2-input: /dev/video4: select timed out
+20:09:39.595: v4l2-input: /dev/video4: failed to log status
+20:09:39.679: v4l2-input: /dev/video4: select timed out
+20:09:39.679: v4l2-input: /dev/video4: failed to log status
+20:09:39.762: v4l2-input: /dev/video4: select timed out
+20:09:39.762: v4l2-input: /dev/video4: failed to log status
+20:09:39.846: v4l2-input: /dev/video4: select timed out
+20:09:39.846: v4l2-input: /dev/video4: failed to log status
+20:09:39.929: v4l2-input: /dev/video4: select timed out
+20:09:39.929: v4l2-input: /dev/video4: failed to log status
+20:09:40.013: v4l2-input: /dev/video4: select timed out
+20:09:40.013: v4l2-input: /dev/video4: failed to log status
+20:09:40.096: v4l2-input: /dev/video4: select timed out
+20:09:40.096: v4l2-input: /dev/video4: failed to log status
+20:09:40.180: v4l2-input: /dev/video4: select timed out
+20:09:40.180: v4l2-input: /dev/video4: failed to log status
+20:09:40.263: v4l2-input: /dev/video4: select timed out
+20:09:40.263: v4l2-input: /dev/video4: failed to log status
+20:09:40.347: v4l2-input: /dev/video4: select timed out
+20:09:40.347: v4l2-input: /dev/video4: failed to log status
+20:09:42.051: v4l2-input: /dev/video4: Stopped capture after 51 frames
+20:09:42.052: v4l2-input: Start capture from /dev/video4
+20:09:42.053: v4l2-input: Input: 0
+20:09:42.054: v4l2-input: Resolution: 1920x1080
+20:09:42.054: v4l2-input: Pixelformat: H264
+20:09:42.054: v4l2-input: Linesize: 3840 Bytes
+20:09:42.055: v4l2-input: Framerate: 60.00 fps
+20:09:42.056: v4l2-input: /dev/video4: select timeout set to 83333 (5x frame periods)
+20:09:42.074: v4l2-input: decoder: failed to send frame to codec
+20:09:42.074: v4l2-input: failed to unpack jpeg or h264
+20:09:42.074: v4l2-input: /dev/video4: Stopped capture after 0 frames
+20:28:06.584: User switched to scene 'Main'
+20:28:12.109: User switched to scene 'Master'
+20:28:12.844: User switched to scene 'Main'
+20:28:14.159: User switched to scene 'Master'
+20:28:22.044: User Removed source 'Tiny - Ark 55"' (v4l2_input) from scene 'Master'
+20:28:22.047: v4l2-input: /dev/video0: Stopped capture after 71893 frames
+20:28:25.888: User Removed source 'Tiny - Office ' (v4l2_input) from scene 'Master'
+20:28:26.693: User switched to scene 'Main'
+20:30:45.816: User added source 'ogx_main' (image_source) to scene 'Main'
+20:31:15.539: User added source 'ogx_bug' (image_source) to scene 'Main'
+20:33:25.187: User added source 'cloudy_eng_main' (image_source) to scene 'Main'
+20:34:05.043: User added source 'cloudy_eng_bug' (image_source) to scene 'Main'
+20:34:32.441: User switched to scene 'Master'
+20:34:32.524: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65570).
+20:34:32.524: 
+20:34:32.531: QVariant::load: unable to load type 65570.
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1735287148
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1768842610
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1634100562
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1935635299
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1868723039
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1600611700
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1868723039
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1601332588
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1040187392
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 956327168
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 3604528
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1694523648
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 3473459
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 1627415296
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 6619187
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 872441088
+20:34:32.531: Trying to construct an instance of an invalid type, type id: 3735609

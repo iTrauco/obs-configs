@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# Output file
-OUTPUT_FILE="system_info.txt"
+# Get the project root directory (where the script is located)
+PROJECT_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Output file in project root
+OUTPUT_FILE="$PROJECT_ROOT/system_info.txt"
 
 # Collect OS and kernel details
 echo "### System Information ###" > $OUTPUT_FILE
@@ -49,3 +52,8 @@ journalctl -p 3 -xb | tail -n 20 >> $OUTPUT_FILE
 
 # Final message
 echo "System information has been gathered in $OUTPUT_FILE"
+
+# Create a timestamped backup
+BACKUP_DIR="$PROJECT_ROOT/backups"
+mkdir -p "$BACKUP_DIR"
+cp "$OUTPUT_FILE" "$BACKUP_DIR/system_info_$(date +%Y%m%d_%H%M%S).txt"
